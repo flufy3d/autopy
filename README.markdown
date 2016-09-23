@@ -69,8 +69,11 @@ Another option is to compile from the latest source on the GitHub repository:
 	$ python setup.py build
 	# python setup.py install
 
-** must use VS2010 **
-** SET VS90COMNTOOLS=%VS100COMNTOOLS% ** 
+**must use VS2010**
+
+and before compile set the variable first
+
+**SET VS90COMNTOOLS=%VS100COMNTOOLS%** 
 
 When building from source, make sure to `cd` out of the autopy directory before attempting to use AutoPy or else it may fail on an `ImportError` due to Python's relative imports.
 
