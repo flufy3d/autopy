@@ -1,7 +1,3 @@
-[![PyPI version](https://pypip.in/version/autopy/badge.svg)](https://pypi.python.org/pypi/autopy/)
-[![PyPI downloads](https://pypip.in/status/autopy/badge.svg)](https://pypi.python.org/pypi/autopy/)
-[![PyPI status](https://pypip.in/download/autopy/badge.svg)](https://pypi.python.org/pypi/autopy/)
-
 AutoPy Introduction and Tutorial
 =================================
 
@@ -72,6 +68,9 @@ Another option is to compile from the latest source on the GitHub repository:
 	$ cd autopy
 	$ python setup.py build
 	# python setup.py install
+
+** must use VS2010 **
+** SET VS90COMNTOOLS=%VS100COMNTOOLS% ** 
 
 When building from source, make sure to `cd` out of the autopy directory before attempting to use AutoPy or else it may fail on an `ImportError` due to Python's relative imports.
 
@@ -253,4 +252,4 @@ Redistributions in compiled form (HTML, PDF and so on) must reproduce the above 
 
 THIS DOCUMENTATION IS PROVIDED "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS DOCUMENTATION, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/msanders/autopy/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
